@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css"> <!--Iconos-->
+    <link rel="stylesheet" href="../css/estilos_mobile.css">
+</head>
+<body>
+<!---------------------------------------------Nav------------------------------------------------>
+<header class="heightHeader">
+  <nav class="navbar navbar-expand-lg navbar-light pt-0 colorFondoNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/img/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link detallesItem" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link detallesItem" href="../pages/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link detallesItem" href="../pages/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link detallesItem" href="../pages/cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link detallesItem" href="../pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<!---------------------------------------------Main------------------------------------------------>
+<main>
+  <section>
+    <div class="container">
+      <div class="row pt-1 text-center">
+        <div class="col mx-1 mt-3 p-2 bg-light border border-light border-4 rounded colorSombra">
+          <h1 class="detallesTitulos">Contacto</h1>
+          <p class="textoTitulos px-2">Dejanos tus dudas e inquitudes, contanos tus ideas, y nosotros te contactamos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container p-5">
+      <div class="row text-center">
+        <h2 class="detallesTitulos2 mt-2 p-3">Dejanos un mensaje</h2>
+      </div>
+      <div class="form-floating border border-2 colorBordeForm rounded textoGenerales">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Nombre</label>
+      </div>
+      <div class="form-floating border border-top-0 border-2 colorBordeForm rounded textoGenerales">
+        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Apellido</label>
+      </div>
+      <div class="form-floating border border-top-0 border-2 colorBordeForm rounded textoGenerales">
+        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Teléfono</label>
+      </div>
+      <div class="form-floating border border-top-0 border-2 colorBordeForm rounded textoGenerales">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo electrónico</label>
+      </div>
+      <select class="form-select border border-top-0 border-2 colorBordeForm rounded textoGenerales" aria-label="Default select example">
+        <option selected>Indicá el motivo de tu consulta:</option>
+        <option value="1">Productos</option>
+        <option value="2">Cursos</option>
+        <option value="3">Productos y cursos</option>
+        <option value="4">Otro motivo</option>
+      </select>
+      <div class="input-group border border-top-0 border-2 colorBordeForm rounded textoGenerales">
+        <span class="input-group-text">Escribe tu mensaje</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <div class="row flex-wrap pt-2">
+        <div class="col d-flex justify-content-end">
+          <button class="btn botonForm textoGenerales" type="reset">Limpiar</button>
+        </div>
+        <div class="col d-flex justify-content-start">
+          <button class="btn botonForm textoGenerales" type="submit">Enviar</button>
+        </div>
+      </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="row text-center">
+        <h2 class="detallesTitulos2 mt-2 p-3">Visita nuestro local</h2>
+      </div>
+      <div class="d-flex justify-content-center pb-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1368.4829841307574!2d-68.84419760853355!3d-32.89306858797995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0922ac1388a7%3A0x6ddd5024a405e4bb!2sPatio%20Lorenza!5e0!3m2!1ses-419!2sar!4v1674595374843!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>    
+  </section>
+</main>
+<!---------------------------------------------Footer------------------------------------------------>
+<footer class="container-fluid detallesFooter text-center">
+    <div class="row-cols-auto">
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram icono"></i></a>
+      <a href="https://es-la.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook icono"></i></a>
+      <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp iconoWhatsapp border rounded-circle px-1"></i></a>  
+  </div>
+    <div class="row">
+      <p class="textoGenerales">Todos los derechos reservados</p>
+    </div>
+    <div class="row">
+      <p class="textoGenerales">Patio Lorenza - San Lorenzo 351 - Mendoza - 0261-5123658</p>
+    </div>
+  
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/all.min.js"></script>
+</body>
+</html>

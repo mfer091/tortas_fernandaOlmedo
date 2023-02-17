@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Source Sans Pro", sans-serif;
+    src: url(../assets/fonts/SourceSansPro-Regular.ttf);
+}
+/*Header*/
+
+.colorFondoNav{
+    /*background-color: #D05074;*/
+    background-color: #d5748f;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.detallesItem{
+    font-family: "Source Sans Pro", sans-serif;
+    color: aliceblue!important;
+    font-size: 1.2em;
+}
+.detallesItem:hover{
+    text-decoration: underline;
+}
+
+/*Main*/
+
+main{
+    min-height: calc(100vh - (78px + 92px));
+    background-color: rgb(227, 219, 207);
+}
+.colorSombra{
+    box-shadow: 0 0 15px 10px #D05074;
+}
+.detallesTitulos{
+    color: #D05074;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.detallesTitulos2{
+    color: #D05074;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+}
+.textoTitulos{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    color: #D05074;
+    font-style: italic;
+}
+.textoGenerales{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1em;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.61);
+    border: 6px solid #d5748f;
+    padding: 1px;    
+    box-shadow: 3px 5px 5px rgba(39, 39, 39, 0.836);
+    border-radius: 5px;
+
+}
+.card-title{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #D05074;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.botonCards{
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #d5748f;
+    border: 1px solid #d5748f;
+    border-radius: 20px;
+}
+.botonCards:hover{
+    color: #ffffff;
+    background-color: #d5748f;
+}
+@media screen and (min-width: 992px){
+    .carousel-item{
+        height: 50vh;
+    }
+}
+.imagenCarrusel{
+    height: 100%;
+    object-fit: cover;
+}
+.detallesVideos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detallesImgProd{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 50vh;
+    background: #EB9EB0;
+    border: 6px solid #EB9EB0;
+    border-radius: 10px;
+} 
+.imgProductos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px;
+    border: 0.5px solid #EB9EB0;
+}
+@media screen and (min-width: 992px){
+    .detallesImgProd{
+        
+        flex-direction: row;
+        min-height: 40vh;      
+    }
+}
+.cardProdCursos{
+    background-color: white;
+    color: #D05074;
+    width: 90%;
+}
+@media screen and (min-width: 992px) {
+    .cardProdCursos{
+        width: 55%;
+    }
+}
+.iconoWhatsappCard{
+    font-size: 1.5rem;
+    color: #00bb2d;
+}
+.linkFormulario{
+    color: #D05074;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cardCursos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(39, 39, 39, 0.836);
+}
+.ImgCursos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;  
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+}
+.titulosCursos{
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 3px 3px 3px #353434;
+    text-shadow: 3px 3px 3px #f75d8b;
+}
+.programasCursos{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    text-shadow: 2px 2px 2px #f75d8b;
+    font-style: italic;
+    
+}
+.programasCursos:hover{
+    text-decoration: underline;
+    color: white;
+    
+}
+.colorBordeForm{
+    border-color: #EB9EB0!important;
+}
+.input-group-text{
+    background: #EB9EB0;
+}
+.botonForm{
+    background-color: #EB9EB0;
+    border-color: #EB9EB0;
+    color: white;
+    text-shadow: 2px 2px 2px #f75d8b;
+}
+.botonForm:hover{
+    color: white;
+    text-shadow: 2px 2px 2px #353434;
+}
+/*Footer*/
+
+.detallesFooter{
+    background-color: #D05074;
+    color: white;
+    line-height: 0.5;
+}
+.icono{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin:5px;
+    padding: 1px;
+}
+.iconoWhatsapp{
+    font-size: 2rem;
+    color: white;
+    background: #00bb2d;
+    margin-top: 1%;
+    padding: 3px;
+    position:fixed;
+    bottom: 40px;
+    right: 25px;
+}
+
+
